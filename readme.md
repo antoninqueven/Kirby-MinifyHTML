@@ -17,7 +17,7 @@ This is a temporary fix until a hook can be used in the plugin.
 More info about that [here](https://github.com/getkirby/kirby/issues/120).
 
 ## Known Issues
-Plugin causes `f::download()` and `$file->download()` to break. 
+Plugin causes `f::download()` and `$file->download()` to break.
 The files themselves are getting minified before download which is leading to corrupt files.
 
 
